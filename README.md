@@ -4,7 +4,13 @@ A brief description of what this project does and who it's for
 Bookstore React Application Welcome to the Bookstore React application! This multi-page application is designed to manage a virtual bookstore, providing a delightful experience for users to explore books, authors, and more.
 
 
-LIVE LINK: https://as-bookstore-app.vercel.app/signin Features
+###LIVE LINK: https://as-bookstore-app.vercel.app/signin 
+
+###APi Link: https://github.com/anshu1016/BookStore
+
+
+
+Features
 
 Navigation The application includes a user-friendly navigation bar, offering quick access to different pages: Home: The welcoming page of the bookstore. Books: Explore a diverse collection of books. Authors: Discover talented authors. 2. Home Page The home page invites users with a warm welcome and showcases a featured book. Get a glimpse of the book cover, title, and a brief description.
 
