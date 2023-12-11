@@ -63,7 +63,14 @@ const ListPage = () => {
       <div className="float-button" onClick={handleShowNewBookModal} style={{ cursor: 'pointer', fontSize: '40px', color: 'red' }} >
         <FontAwesomeIcon icon={faPlus} style={{ cursor: 'pointer', fontSize: '40px', color: 'red' }} />Add
       </div>
-      <p className="bg-white color:"red" fontSize:"26px">PLEASE FILL THE AUTHOR USING THIS FORMAT OF ID ("65769051157c21e9177be488"), OTHERWISE IT WILL GIVE ERROR. I HAVE INITIALIZED THIS FIELD IN API USING OBJECT TYPE SCHEMA ID THAT'S WHY IT'S NECESSARY TO USE SUCH TYPES OF AUTHOR ID</div></p>
+     <div class="alert alert-warning" role="alert">
+    <p class="bg-white mb-0">
+        PLEASE FILL THE AUTHOR USING THIS FORMAT OF ID ("65769051157c21e9177be488"),
+        OTHERWISE IT WILL GIVE ERROR. I HAVE INITIALIZED THIS FIELD IN API USING
+        OBJECT TYPE SCHEMA ID THAT'S WHY IT'S NECESSARY TO USE SUCH TYPES OF AUTHOR ID
+    </p>
+</div>
+
       {/* New book modal */}
       <NewBookModal show={showNewBookModal} handleClose={handleCloseNewBookModal} handleCreate={handleCreateNewBook} />
     </div>
