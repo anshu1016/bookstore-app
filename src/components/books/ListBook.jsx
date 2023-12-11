@@ -48,9 +48,6 @@ const ListPage = () => {
   return (
     <div>
       <h2 className="mb-4">Book List</h2>
-      <div className="float-button" onClick={handleShowNewBookModal} style={{ position: 'fixed', top: '10px', right: '10px',cursor: 'pointer', fontSize: '40px', color: 'red'  }}>
-        <FontAwesomeIcon icon={faPlus} style={{ cursor: 'pointer', fontSize: '40px', color: 'red' }} />Add
-      </div>
 
         <div class="alert alert-warning" role="alert">
     <p class="bg-white mb-0">
@@ -59,6 +56,13 @@ const ListPage = () => {
         OBJECT TYPE SCHEMA ID THAT'S WHY IT'S NECESSARY TO USE SUCH TYPES OF AUTHOR ID
     </p>
 </div>
+
+      
+      <div className="float-button" onClick={handleShowNewBookModal} style={{ position: 'fixed', top: '10px', right: '10px',cursor: 'pointer', fontSize: '40px', color: 'red'  }}>
+        <FontAwesomeIcon icon={faPlus} style={{ cursor: 'pointer', fontSize: '40px', color: 'red' }} />Add
+      </div>
+
+      
 
       
       <div className="row">
